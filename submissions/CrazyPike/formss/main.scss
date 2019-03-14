@@ -5,6 +5,11 @@
   font-size: 14px;
 }
 
+input{
+  font-size: 20px;
+  padding-left: 5px;
+}
+
 input:focus + label{
   outline: 2px solid rgba(127,185,249,1);
 }
@@ -15,6 +20,9 @@ button:hover{
 
 
 .page__links{
+  color: rgba(119,118,143,1);
+  text-decoration: none;
+
   &:hover{
     outline: 1px black solid;
   }
